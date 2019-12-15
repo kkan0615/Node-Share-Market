@@ -1,0 +1,35 @@
+{
+  "name": "node-share-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkan0615/Node-Share-Market.git"
+  },
+  "author": "Youngjin Kwak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkan0615/Node-Share-Market/issues"
+  },
+  "homepage": "https://github.com/kkan0615/Node-Share-Market#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
